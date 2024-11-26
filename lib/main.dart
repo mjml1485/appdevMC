@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'home_screen.dart';
 import 'favorites_screen.dart';
 import 'profile_screen.dart';
-import 'search_screen.dart';
 
 void main() {
   runApp(SmartSwapApp());
@@ -35,7 +34,6 @@ class _NavigationScreenState extends State<NavigationScreen> {
     FavoritesScreen(),
     HomeScreen(),
     ProfileScreen(),
-    SearchScreen(),
   ];
 
   // List of titles for the AppBar
@@ -43,7 +41,6 @@ class _NavigationScreenState extends State<NavigationScreen> {
     "Favorites",
     "Smart Swap",
     "Profile",
-    "Search",
   ];
 
   // Handle bottom navigation bar item taps
@@ -78,7 +75,7 @@ class _NavigationScreenState extends State<NavigationScreen> {
         items: [
           BottomNavigationBarItem(
             icon: Icon(Icons.favorite),
-            label: 'Favorites',
+            label: 'Bookmarks',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
@@ -87,10 +84,6 @@ class _NavigationScreenState extends State<NavigationScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.person),
             label: 'Profile',
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'Search',
           ),
         ],
         selectedItemColor: Colors.green, // Highlighted icon color

@@ -65,6 +65,10 @@ flutter:
     - assets/dietary.jpg
     - assets/health.jpg
     - assets/meal.jpg
+    - assets/mango.jpg
+    - assets/orange.jpg
+    - assets/banana.jpg
+    - assets/strawberry.jpg
     - assets/ingredient.jpg
     - assets/beverage.jpg
     - assets/pantry.jpg
